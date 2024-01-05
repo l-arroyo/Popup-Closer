@@ -1,6 +1,6 @@
 # Popup Window Closer
 
-This Python script helps you automatically close popup .NET license windows. Simply run the script and keep it open while compiling your solution and let it close all these annoying popup windows for you.
+This Python script helps you automatically close ComponentOne license popup windows. Simply run the script and keep it open while compiling your solution and let it close all these annoying popup windows for you.
 
 ## Getting Started
 
