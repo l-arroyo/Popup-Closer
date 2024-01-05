@@ -25,6 +25,8 @@ while True:
     close_popup("About C1FlexGrid")
     close_popup("About Input")
     close_popup("About Command")
+    close_popup("About C1Excel")
+    close_popup("About C1InputPanel")
     close_popup("About C1.Win.FlexViewer")
     close_popup("About C1.Win.C1Document")
     close_popup("About C1.C1Pdf")
