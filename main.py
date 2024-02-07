@@ -9,11 +9,13 @@ def close_popup(window_title):
         try:
             window = window[0]
             window.close()
-            print(f"{datetime.now().strftime('%d-%m-%Y %H:%M:%S')}: Popup '{window_title}' cerrado.")
+            print(f"✅ {datetime.now().strftime('%H:%M:%S')}: Popup '{window_title}' cerrado.")
         except Exception:
+            print(f"⚠️ {datetime.now().strftime('%H:%M:%S')}: No se ha podido cerrar el Popup '{window_title}'.")
             time.sleep(1)
 
 # Ejecución continua en segundo plano
+print(f"👁️ {datetime.now().strftime('%H:%M:%S')}:Script iniciado.")
 while True:
     close_popup("About C1TrueDBGrid")
     close_popup("About C1FlexGrid")
